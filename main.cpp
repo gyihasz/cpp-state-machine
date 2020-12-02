@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
 	
 	while (1) {
 		sleep();
-		Event evt = Event(rand() % 2);
+		Event evt = Event(rand() % 13);
 		system.Handle(evt);
 	}
 	return 0;
@@ -22,6 +22,6 @@ int main(int argc, char* argv[])
 
 void sleep() {
    clock_t goal;
-   goal = 1 * CLOCKS_PER_SEC + clock();
+   goal = 1 * CLOCKS_PER_SEC/8 + clock();
    while( goal > clock() );
 }

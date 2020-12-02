@@ -13,7 +13,7 @@ private:
 
 public:
 	static Failure* getInstance(EmbeddedSystemX* context);
-	void Handle();
+	void Handle(Event _event);
 };
 
 #endif

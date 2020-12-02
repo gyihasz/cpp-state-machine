@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include "State.h"
 #include "EmbeddedSystemX.h"
+#include "Event.h"
 
 class Mode2: public State {
 	private:
@@ -13,6 +14,6 @@ class Mode2: public State {
 
 	public:
 		static Mode2* getInstance(EmbeddedSystemX* context);
-		void Handle();
+		void Handle(Event _event);
 };
 #endif

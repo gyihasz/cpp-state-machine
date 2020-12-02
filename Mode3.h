@@ -13,6 +13,6 @@ private:
 
 public:
 	static Mode3* getInstance(EmbeddedSystemX* context);
-	void Handle();
+	void Handle(Event _event);
 };
 #endif
