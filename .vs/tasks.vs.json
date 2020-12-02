@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-ERTS_ASS_3_Example_SemaphorePDStateCpp",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
