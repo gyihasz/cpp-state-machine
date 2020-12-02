@@ -1,11 +1,8 @@
-#pragma hdrstop
 #include <iostream>
 #include <stdio.h>
 #include <time.h>
 #include "EmbeddedSystemX.h"
 
-
-#pragma argsused
 void sleep();
 
 int main(int argc, char* argv[])

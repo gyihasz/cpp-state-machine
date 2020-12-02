@@ -1,14 +1,15 @@
-#pragma hdrstop
-
 #include "Mode2.h"
 #include "Mode3.h"
 
 Mode2::Mode2(EmbeddedSystemX* context): _context(context) {};
 
+Mode2* Mode2::_instance = NULL;
+
 void Mode2::Handle()
 {
 	printf("Mode2\n");
-	_context->setState( new Mode3(_context) );
+	Mode3* m = m->getInstance(_context);
+	_context->setState(m);
 }
 
 Mode2* Mode2::getInstance(EmbeddedSystemX* _context) {
@@ -21,4 +22,3 @@ Mode2* Mode2::getInstance(EmbeddedSystemX* _context) {
 		return _instance;
 	}
 }
-#pragma package(smart_init)

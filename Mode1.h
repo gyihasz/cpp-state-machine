@@ -5,14 +5,14 @@
 #include "State.h"
 #include "EmbeddedSystemX.h"
 
-class Mode1: public State
-{
+class Mode1: public State {
 	private:
 		EmbeddedSystemX* _context;
+		static Mode1* _instance;
+		Mode1(EmbeddedSystemX* context);
 
 	public:
-		Mode1(EmbeddedSystemX* context);
+		static Mode1* getInstance(EmbeddedSystemX* context);
 		void Handle();
 };
-
 #endif

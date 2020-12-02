@@ -1,5 +1,3 @@
-#pragma hdrstop
-
 #include "EmbeddedSystemX.h"
 #include "Mode2.h"
 

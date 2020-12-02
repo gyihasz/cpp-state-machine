@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="V:\ERTS\ERTS_ASS_3_Example_SemaphorePDStateCpp\main.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Mode1.cpp" />
     <ClCompile Include="EmbeddedSystemX.cpp" />
     <ClCompile Include="Mode2.cpp" />

@@ -1,7 +1,0 @@
-﻿  Mode1.cpp
-  EmbeddedSystemX.cpp
-  Mode2.cpp
-v:\erts\erts_ass_3_example_semaphorepdstatecpp\mode2.cpp(24): warning C4068: unknown pragma
-  Generating Code...
-Mode2.obj : error LNK2001: unresolved external symbol "private: static class Mode2 * Mode2::_instance" (?_instance@Mode2@@0PAV1@A)
-V:\ERTS\ERTS_ASS_3_Example_SemaphorePDStateCpp\Debug\assignment_3.exe : fatal error LNK1120: 1 unresolved externals
