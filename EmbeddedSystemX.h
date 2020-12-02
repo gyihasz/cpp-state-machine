@@ -1,6 +1,7 @@
 #ifndef EmbeddedSystemXH
 #define EmbeddedSystemXH
 #include "State.h"
+#include "Event.h"
 
 class EmbeddedSystemX
 {
@@ -10,6 +11,6 @@ class EmbeddedSystemX
 	public:
 		EmbeddedSystemX();
 		void setState (State* state);
-		void Handle();
+		void Handle(Event event);
 };
 #endif

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 #include <time.h>
+#include <random>
 #include "EmbeddedSystemX.h"
 
 void sleep();
@@ -13,7 +14,8 @@ int main(int argc, char* argv[])
 	
 	while (1) {
 		sleep();
-		system.Handle();
+		Event evt = Event(rand() % 2);
+		system.Handle(evt);
 	}
 	return 0;
 }

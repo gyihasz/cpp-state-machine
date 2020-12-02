@@ -131,6 +131,7 @@
     <ClCompile Include="Mode3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Event.h" />
     <ClInclude Include="Failure.h" />
     <ClInclude Include="Mode1.h" />
     <ClInclude Include="EmbeddedSystemX.h" />

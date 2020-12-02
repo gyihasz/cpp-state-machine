@@ -7,12 +7,13 @@ EmbeddedSystemX::EmbeddedSystemX() {
 	_state = m;
 }
 
-void EmbeddedSystemX::setState ( State* state ) {
+void EmbeddedSystemX::setState(State* state) {
 	_state = state;
 }
 
-void EmbeddedSystemX::Handle ()
+void EmbeddedSystemX::Handle(Event event)
 {
+	std::cout << event << std::endl;
 	_state->Handle();
 }
 
