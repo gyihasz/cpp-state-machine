@@ -5,7 +5,7 @@
 #include "PowerOnSelfTest.h"
 #include "Ready.h"
 
-Mode1::Mode1(EmbeddedSystemX* context): _context(context) {};
+Mode1::Mode1(EmbeddedSystemX* context) : _context(context) {};
 
 Mode1* Mode1::_instance = NULL;
 

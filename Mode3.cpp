@@ -5,7 +5,7 @@
 #include "PowerOnSelfTest.h"
 #include "Ready.h"
 
-Mode3::Mode3(EmbeddedSystemX* context): _context(context) {};
+Mode3::Mode3(EmbeddedSystemX* context) : _context(context) {};
 
 Mode3* Mode3::_instance = NULL;
 

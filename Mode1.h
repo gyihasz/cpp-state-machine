@@ -6,14 +6,14 @@
 #include "EmbeddedSystemX.h"
 #include "Event.h"
 
-class Mode1: public State {
-	private:
-		EmbeddedSystemX* _context;
-		static Mode1* _instance;
-		Mode1(EmbeddedSystemX* context);
+class Mode1 : public State {
+private:
+	EmbeddedSystemX* _context;
+	static Mode1* _instance;
+	Mode1(EmbeddedSystemX* context);
 
-	public:
-		static Mode1* getInstance(EmbeddedSystemX* context);
-		void Handle(Event event);
+public:
+	static Mode1* getInstance(EmbeddedSystemX* context);
+	void Handle(Event event);
 };
 #endif

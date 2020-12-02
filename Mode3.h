@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include "State.h"
 #include "EmbeddedSystemX.h"
+#include "Event.h"
 
 class Mode3 : public State {
 private:

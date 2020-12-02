@@ -4,7 +4,7 @@
 
 class State
 {
-   public:
-	 virtual void Handle(Event _event) = 0;
+public:
+	virtual void Handle(Event _event) = 0;
 };
 #endif

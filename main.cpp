@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
 	EmbeddedSystemX system;
 
 	printf("--------- Session started ---------\n");
-	
+
 	while (1) {
 		sleep();
 		Event evt = Event(rand() % 13);
@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
 }
 
 void sleep() {
-   clock_t goal;
-   goal = 1 * CLOCKS_PER_SEC/8 + clock();
-   while( goal > clock() );
+	clock_t goal;
+	goal = 1 * CLOCKS_PER_SEC / 8 + clock();
+	while (goal > clock());
 }

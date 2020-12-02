@@ -149,7 +149,6 @@
     <ClInclude Include="State.h" />
     <ClInclude Include="Mode3.h" />
     <ClInclude Include="Suspended.h" />
-    <ClInclude Include="Util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

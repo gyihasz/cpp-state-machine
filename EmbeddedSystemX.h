@@ -5,12 +5,12 @@
 
 class EmbeddedSystemX
 {
-	private:
-		//This is the global state of the system
-		State* _state;
-	public:
-		EmbeddedSystemX();
-		void setState (State* state);
-		void Handle(Event event);
+private:
+	//This is the global state of the system
+	State* _state;
+public:
+	EmbeddedSystemX();
+	void setState(State* state);
+	void Handle(Event event);
 };
 #endif
