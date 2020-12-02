@@ -15,11 +15,11 @@ void Mode3::Handle()
 Mode3* Mode3::getInstance(EmbeddedSystemX* _context) {
 	if (_instance == NULL) {
 		_instance = new Mode3(_context);
-		printf("New Instance of Mode2 created.\n");
+		printf("New Instance of Mode3 created.\n");
 		return _instance;
 	}
 	else {
-		printf("Old Instance of Mode2 is returned.\n");
+		printf("Old Instance of Mode3 is returned.\n");
 		return _instance;
 	}
 }

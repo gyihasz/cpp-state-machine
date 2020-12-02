@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Failure.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mode1.cpp" />
     <ClCompile Include="EmbeddedSystemX.cpp" />

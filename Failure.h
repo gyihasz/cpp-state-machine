@@ -8,9 +8,11 @@
 class Failure : public State {
 private:
 	EmbeddedSystemX* _context;
+	static Failure* _instance;
+	Failure(EmbeddedSystemX* context);
 
 public:
-	Failure(EmbeddedSystemX* context);
+	static Failure* getInstance(EmbeddedSystemX* context);
 	void Handle();
 };
 
